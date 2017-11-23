@@ -7,11 +7,12 @@ public class BasicPost : MonoBehaviour
 {
 
     private Material material;
+    public Shader _shader;
 
     // Creates a private material used to the effect
     void Awake()
     {
-        material = new Material(Shader.Find("Hidden/HalfBrightness"));
+        material = new Material(_shader);
     }
 
     // Postprocess the image

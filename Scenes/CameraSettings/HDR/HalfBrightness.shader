@@ -1,4 +1,4 @@
-﻿Shader "Hidden/HalfBrightness"
+﻿Shader "UTF_shader/HalfBrightness"
 {
 	Properties
 	{
